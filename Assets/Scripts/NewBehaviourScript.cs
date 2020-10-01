@@ -50,5 +50,9 @@ public class NewBehaviourScript : MonoBehaviour
         if(Input.GetKeyUp(KeyCode.L)){
             musicSource.loop = false;
         }
+        
+        if(Input.GetKey("escape")){
+            Application.Quit();
+        }
     }
 }
